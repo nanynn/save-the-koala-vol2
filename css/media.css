@@ -1,0 +1,53 @@
+@media (min-width: 1px) and (max-width: 640px){
+	#bienvenida{
+	padding-top: 18em;
+	width: 90vw;
+	height: 45vh;
+	/*background-color: rgba(219, 219, 219, 0.3);
+	background-position: 50% 30%;*/
+	}
+
+	#bienvenida p{
+	font-size: 12px;
+	}
+
+	#foundation{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	}
+
+	.third-section{
+		padding: 5%;
+	}
+	.third-section img{
+		border: 0.5em solid #fff;
+	}
+	.texto{
+		padding-bottom: 5%;
+	}
+	.caja-texto{
+	padding-top: 10%;
+	padding-left: 0;
+	}
+	#donate{
+		height: 200vh;
+	}
+	#donate .info{
+		padding-bottom: 10%;
+	}
+	
+	footer{
+		height: 40vh;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 1024px){
+	#bienvenida{
+	padding-top: 50%;
+	}
+
+	#foundation{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	}
+}
