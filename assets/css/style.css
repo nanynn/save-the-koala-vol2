@@ -122,8 +122,15 @@ body{
 	color: #000;
 	font-style: italic;
 }
+.modal-content h4{
+	color:#3F3F3F;
+}
+.modal-content button{
+	color: #fff;
+	background-color: #41521F;
+}
 
-#koalas{
+/*#koalas{
 	background-image: url(../img/all.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
@@ -139,18 +146,19 @@ body{
 .caja-texto{
 	padding-top: 2%;
 	padding-left: 50%;
-}
+}*/
 
 .five-section{
-	padding-top: 6%;
-	padding-bottom: 6%;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	height: 150vh;
 }
 
 .five-section h2{
 	color: #A89F68;
 	text-align: center;
 	font-weight: 700;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 
 .five-section p{
@@ -164,7 +172,7 @@ body{
 }
 #donate{
 	background-color: #A89F68;
-	height: 100vh;
+	height: 120vh;
 	padding-top: 5%;
 }
 
@@ -172,12 +180,13 @@ body{
 	font-weight: 700;
 	text-align: center;
 	color: #41521F;
-	padding-bottom: 5%;
+	padding: 3% 0 5% 0;
 
 }
 .num{
 	font-weight: 700;
 	position: relative;
+	padding-bottom:3em;
 }
 .num span{
 	color: white;
@@ -215,6 +224,13 @@ body{
 	color: #000;
 	font-style: italic;
 
+}
+
+#mensaje{
+	color: #fff;
+	background-color: #41521F;
+	padding: 1em;
+	border-radius: 0.3em;
 }
 
 footer{
